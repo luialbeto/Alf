@@ -1,5 +1,3 @@
-const alfSchema = require('../models/index');
-
 const getAll = async () => model.getAll();
 
 const getById = async (id) => {

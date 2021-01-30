@@ -34,7 +34,7 @@ const AlfSchema = new Schema({
     type: String,
     required: true,
   },
-  respostas: [AlternativaSchema],
+  respostas: [Alternativas],
   notas: {
     type: Number,
     min: 0,
